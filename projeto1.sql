@@ -8,7 +8,7 @@ with
 		from sales.funnel
 		group by visit_page_month
 		order by visit_page_month
-	),
+	 ),
 	
 	payments as (
 		select
